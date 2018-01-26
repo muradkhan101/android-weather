@@ -37,7 +37,7 @@ class MainModel: ViewModel() {
     init{ action(SelectCity("London")) }
     fun action(action: Action) = actor.offer(action)
 
-    override fun onCleared() { actor.cancel().unit }
+    override fun onCleared() = actor.cancel().unit
 
     private suspend fun getNewCharts(city: String)
         = Repository.getCityCharts(city).also { cache[city] = it }
