@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">Weather</string>
-    <string name="open_drawer">Opening navigation drawer</string>
-    <string name="close_drawer">Closing navigation drawer</string>
+    <string name="app_name">Cr Weather</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="android_icon">Icon</string>
+    <string name="email">my.email@gmail.com</string>
 </resources>
